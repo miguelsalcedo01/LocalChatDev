@@ -5,9 +5,9 @@ import wikipediaapi
 import os
 from camel.localai import LocalAI
 
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+OPENAI_API_KEY = 324234wss # os.environ.get('OPENAI_API_KEY')
 BASE_URL = os.environ.get('BASE_URL')
-RUN_LOCALLY = False
+RUN_LOCALLY = True
 DECENTRALIZE = False
 
 if 'BASE_URL' in os.environ:
